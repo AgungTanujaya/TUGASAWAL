@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".Homeactivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/txt_datang"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_datang"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="@string/txt_hiragana"
+        android:background="@drawable/hiragana"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="Login1"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/katakana"
+        android:text="Katakana"
+        android:layout_below="@+id/button1"
+        android:layout_margin="45dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_katakana"
+        android:onClick="Login3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Selamat Belajar"
+        android:layout_below="@+id/txt_katakana"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"/>
+
+
+
+
+
+</RelativeLayout>

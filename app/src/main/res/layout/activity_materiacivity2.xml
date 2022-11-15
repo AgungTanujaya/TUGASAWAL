@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="750dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="15dp"
+    tools:context=".Materiactivity"
+    android:background="@drawable/main">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="@string/txt_materi_2"
+        android:layout_marginLeft="135dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txt_materi_2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_a"
+        android:layout_below="@+id/txt_materi_2"
+        android:textColor="#FFF"
+        android:textSize="28dp"
+        android:layout_marginLeft="45dp"
+        android:id="@+id/txt_a"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:text="i"
+        android:layout_below="@+id/txt_materi_2"
+        android:textColor="#FFF"
+        android:layout_marginLeft="115dp"
+        android:id="@+id/txt_i"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="u"
+        android:textSize="28dp"
+        android:layout_below="@+id/txt_materi_2"
+        android:layout_marginLeft="190dp"
+        android:textColor="#fff"
+        android:id="@+id/txt_u"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="e"
+        android:textColor="#fff"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="105dp"
+        android:textSize="28dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/text_e"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="o"
+        android:textColor="#fff"
+        android:layout_marginLeft="340dp"
+        android:layout_marginRight="36dp"
+        android:textSize="28dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/txt_e"/>
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ア"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_a"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt_kotak_a"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="イ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_i"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt_kotak_i"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ウ"
+        android:textSize="25dp"
+        android:layout_marginLeft="182dp"
+        android:layout_below="@+id/txt_i"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt_kotak_u"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="エ"
+        android:textSize="25dp"
+        android:layout_marginLeft="262dp"
+        android:layout_below="@+id/txt_i"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt_kotak_e"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="オ"
+        android:textSize="25dp"
+        android:layout_marginLeft="332dp"
+        android:layout_below="@+id/txt_i"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txt_kotak_o"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_k"
+        android:textColor="#fff"
+        android:textSize="28dp"
+        android:layout_below="@+id/txt_kotak_a"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/text_ka"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="s"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="195dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_s"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="t"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="256dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_t"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="n"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_n"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="h"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_h"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="m"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_m"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="y"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="493dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_y"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="r"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="556dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_r"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="w"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="618dp"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/txt_w"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="N"
+        android:textSize="28dp"
+        android:textColor="#fff"
+        android:layout_marginTop="658dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/txt_N"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="カ"
+        android:layout_below="@+id/txt_kotak_a"
+        android:layout_marginTop="30dp"
+        android:textSize="28dp"
+        android:layout_marginLeft="38dp"
+        android:id="@+id/txt_kotak_ka"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="キ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_i"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ki"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ク"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_u"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ku"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ケ"
+        android:textSize="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@+id/txt_kotak_e"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ke"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="コ"
+        android:textSize="25dp"
+        android:layout_marginLeft="332dp"
+        android:layout_below="@+id/txt_kotak_e"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ko"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="サ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_ka"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_sa"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="シ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_ki"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_shi"/>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="shi"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt_kotak_sa"
+        android:textColor="#fff"
+        android:layout_marginLeft="105dp"/>
+
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ス"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_ku"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_su"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="セ"
+        android:textSize="25dp"
+        android:layout_marginLeft="261dp"
+        android:layout_below="@+id/txt_kotak_ke"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_se"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ソ"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_ko"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_so"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="タ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_sa"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ta"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="チ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_su"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_chi"/>
+
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="chi"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt_kotak_chi"
+        android:textColor="#fff"
+        android:layout_marginLeft="105dp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ツ"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_shi"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_tsu"/>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="tsu"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt_kotak_tsu"
+        android:textColor="#fff"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="テ"
+        android:textSize="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@+id/txt_kotak_su"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_te"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ト"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_so"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_to"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ナ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_ta"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_na"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ニ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_chi"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ni"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ヌ"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_tsu"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_nu"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ネ"
+        android:textSize="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@+id/txt_kotak_te"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ne"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ノ"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_to"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_no"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ハ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_na"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ha"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ヒ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_ni"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_hi"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="フ"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_nu"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_fu"/>
+
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:text="fu"
+        android:textSize="20dp"
+        android:layout_below="@+id/txt_kotak_fu"
+        android:textColor="#fff"
+        android:layout_marginLeft="182dp"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ヘ"
+        android:textSize="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@+id/txt_kotak_ne"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_he"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ホ"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_no"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ho"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="マ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_ha"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ma"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ミ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_hi"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_mi"/>
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ム"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_fu"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_mu"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="メ"
+        android:textSize="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@+id/txt_kotak_he"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_me"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="モ"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_ho"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_mo"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ヤ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_ma"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ya"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ユ"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_mu"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_yu"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ヨ"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_mo"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_yo"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_mu"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_kosong1"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:textSize="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@+id/txt_kotak_me"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_kosong2"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ラ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_ya"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ra"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="リ"
+        android:textSize="25dp"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/txt_kotak_kosong1"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ri"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ル"
+        android:textSize="25dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@+id/txt_kotak_yu"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ru"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="レ"
+        android:textSize="25dp"
+        android:layout_marginLeft="260dp"
+        android:layout_below="@+id/txt_kotak_kosong2"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_re"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ロ"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_yo"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_ro"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ワ"
+        android:textSize="25dp"
+        android:layout_marginLeft="38dp"
+        android:layout_below="@+id/txt_kotak_ra"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_wa"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ヲ"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_ro"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txt_kotak_wo"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/kotakkecil"
+        android:text="ン"
+        android:textSize="25dp"
+        android:layout_marginLeft="331dp"
+        android:layout_below="@+id/txt_kotak_wo"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txt_kotak_n"/>
+
+</RelativeLayout>

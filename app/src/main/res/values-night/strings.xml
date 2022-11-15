@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_top">SELAMAT DATANG</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_hint_email">example@gmail.com</string>
+    <string name="txt_hint_password">Password</string>
+    <string name="txt_button_daftar">Daftar</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_belum_punya_akun">Belum Punya Akun</string>
+    <string name="txt_bottom">Daftar</string>
+    <string name="txt_silahkan_daftar">Belum Mempunyai akun ? Silahkan Daftar Terlebih Dahulu</string>
+    <string name="txt_hint_email2_com">example@gmail.com</string>
+    <string name="txt_daftar">Silahkan Daftar terlebih dahulu</string>
+    <string name="txt_id">EMAIL</string>
+    <string name="txt_selamat_belajar">Selamat Belajar</string>
+    <string name="txt_belajar">Selamat Belajar</string>
+    <string name="txt_hiragana">Hiragana</string>
+    <string name="txt_datang">Selamat Datang</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_materi">Hiragana</string>
+    <string name="txt_a">a</string>
+    <string name="txt_k">k</string>
+    <string name="txt_materi_2">Katakana</string>
+</resources>
